@@ -1,0 +1,1352 @@
+[
+  {
+    "id": 1,
+    "title": "Hollow Knight: Silksong",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2025,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/library_600x900.jpg",
+    "description": "Hollow Knight: Silksong — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 2,
+    "title": "Clair Obscur: Expedition 33",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2025,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/library_600x900.jpg",
+    "description": "Clair Obscur: Expedition 33 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 3,
+    "title": "Elden Ring: Shadow of the Erdtree",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2778580/header.jpg",
+    "description": "Elden Ring: Shadow of the Erdtree — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 4,
+    "title": "Baldur's Gate 3",
+    "genre": "RPG",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/library_600x900.jpg",
+    "description": "Baldur's Gate 3 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 5,
+    "title": "Stardew Valley",
+    "genre": "จำลองชีวิต",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2016,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900.jpg",
+    "description": "Stardew Valley — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 6,
+    "title": "Hades II",
+    "genre": "แอ็กชัน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/library_600x900.jpg",
+    "description": "Hades II — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 7,
+    "title": "Elden Ring",
+    "genre": "แอ็กชัน / RPG",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2022,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg",
+    "description": "Elden Ring — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 8,
+    "title": "The Witcher 3: Wild Hunt",
+    "genre": "RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2015,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/library_600x900.jpg",
+    "description": "The Witcher 3: Wild Hunt — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 9,
+    "title": "Cyberpunk 2077",
+    "genre": "แอ็กชัน / RPG",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900.jpg",
+    "description": "Cyberpunk 2077 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 10,
+    "title": "Red Dead Redemption 2",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/library_600x900.jpg",
+    "description": "Red Dead Redemption 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 11,
+    "title": "Grand Theft Auto V",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2013,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/library_600x900.jpg",
+    "description": "Grand Theft Auto V — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 12,
+    "title": "The Elder Scrolls V: Skyrim",
+    "genre": "RPG",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2011,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/library_600x900.jpg",
+    "description": "The Elder Scrolls V: Skyrim — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 13,
+    "title": "Mass Effect Legendary Edition",
+    "genre": "RPG",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2021,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1328670/library_600x900.jpg",
+    "description": "Mass Effect Legendary Edition — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 14,
+    "title": "Dragon Age: Inquisition",
+    "genre": "RPG",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2014,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222690/library_600x900.jpg",
+    "description": "Dragon Age: Inquisition — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 15,
+    "title": "Divinity: Original Sin 2",
+    "genre": "RPG",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2017,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/library_600x900.jpg",
+    "description": "Divinity: Original Sin 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 16,
+    "title": "Dragon's Dogma 2",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/library_600x900.jpg",
+    "description": "Dragon's Dogma 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 17,
+    "title": "Sekiro: Shadows Die Twice",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2019,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/library_600x900.jpg",
+    "description": "Sekiro: Shadows Die Twice — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 18,
+    "title": "Dark Souls III",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2016,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/library_600x900.jpg",
+    "description": "Dark Souls III — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 19,
+    "title": "Bloodborne",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2015,
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "description": "Bloodborne — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 20,
+    "title": "Demon's Souls",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2020,
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "description": "Demon's Souls — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 21,
+    "title": "Lies of P",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/library_600x900.jpg",
+    "description": "Lies of P — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 22,
+    "title": "Nioh 2",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2020,
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/91/Nioh_2_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "description": "Nioh 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 23,
+    "title": "Monster Hunter: World",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/library_600x900.jpg",
+    "description": "Monster Hunter: World — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 24,
+    "title": "Monster Hunter Rise",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2021,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/library_600x900.jpg",
+    "description": "Monster Hunter Rise — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 25,
+    "title": "Monster Hunter Wilds",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2025,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/library_600x900.jpg",
+    "description": "Monster Hunter Wilds — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 26,
+    "title": "Final Fantasy VII Remake Intergrade",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2021,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/library_600x900.jpg",
+    "description": "Final Fantasy VII Remake Intergrade — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 27,
+    "title": "Final Fantasy XVI",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/library_600x900.jpg",
+    "description": "Final Fantasy XVI — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 28,
+    "title": "Persona 5 Royal",
+    "genre": "RPG",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2019,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/library_600x900.jpg",
+    "description": "Persona 5 Royal — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 29,
+    "title": "Persona 3 Reload",
+    "genre": "RPG",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/library_600x900.jpg",
+    "description": "Persona 3 Reload — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 30,
+    "title": "Like a Dragon: Infinite Wealth",
+    "genre": "RPG",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072450/library_600x900.jpg",
+    "description": "Like a Dragon: Infinite Wealth — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 31,
+    "title": "NieR: Automata",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2017,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524220/library_600x900.jpg",
+    "description": "NieR: Automata — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 32,
+    "title": "Disco Elysium: The Final Cut",
+    "genre": "RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2019,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/library_600x900.jpg",
+    "description": "Disco Elysium: The Final Cut — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 33,
+    "title": "Undertale",
+    "genre": "RPG",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2015,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/library_600x900.jpg",
+    "description": "Undertale — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 34,
+    "title": "Celeste",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/library_600x900.jpg",
+    "description": "Celeste — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 35,
+    "title": "Cuphead",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2017,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/library_600x900.jpg",
+    "description": "Cuphead — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 36,
+    "title": "Dead Cells",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/library_600x900.jpg",
+    "description": "Dead Cells — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 37,
+    "title": "Ori and the Blind Forest",
+    "genre": "ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2015,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/261570/library_600x900.jpg",
+    "description": "Ori and the Blind Forest — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 38,
+    "title": "Ori and the Will of the Wisps",
+    "genre": "ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/library_600x900.jpg",
+    "description": "Ori and the Will of the Wisps — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 39,
+    "title": "Metroid Dread",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2021,
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f7/Metroid_Dread_Banner.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "description": "Metroid Dread — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 40,
+    "title": "Super Mario Odyssey",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2017,
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "description": "Super Mario Odyssey — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 41,
+    "title": "Super Mario Bros. Wonder",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2023,
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/Mariowonder.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "description": "Super Mario Bros. Wonder — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 42,
+    "title": "Mario Kart 8 Deluxe",
+    "genre": "กีฬา",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2017,
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b5/MarioKart8Boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "description": "Mario Kart 8 Deluxe — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 43,
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2017,
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "description": "The Legend of Zelda: Breath of the Wild — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 44,
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2023,
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "description": "The Legend of Zelda: Tears of the Kingdom — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 45,
+    "title": "Animal Crossing: New Horizons",
+    "genre": "จำลองชีวิต",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2020,
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "description": "Animal Crossing: New Horizons — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 46,
+    "title": "Pokémon Scarlet and Violet",
+    "genre": "RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2022,
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/00/Pok%C3%A9mon_Scarlet_and_Violet_banner.png",
+    "description": "Pokémon Scarlet and Violet — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 47,
+    "title": "Pokémon Legends: Arceus",
+    "genre": "RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2022,
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9c/Pokemon_Legends_Arceus_cover.jpg",
+    "description": "Pokémon Legends: Arceus — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 48,
+    "title": "Fire Emblem: Three Houses",
+    "genre": "RPG / วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2019,
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/16/Fire_Emblem_Three_Houses.jpg",
+    "description": "Fire Emblem: Three Houses — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 49,
+    "title": "Splatoon 3",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2022,
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4f/Splatoon.3.jpg",
+    "description": "Splatoon 3 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 50,
+    "title": "Super Smash Bros. Ultimate",
+    "genre": "แอ็กชัน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2018,
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+    "description": "Super Smash Bros. Ultimate — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 51,
+    "title": "Luigi's Mansion 3",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2019,
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/38/Luigi%27s_Mansion_3.jpg",
+    "description": "Luigi's Mansion 3 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 52,
+    "title": "Pikmin 4",
+    "genre": "แอ็กชัน / ผจญภัย / วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2023,
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4d/Pikmin_icon_4.jpg",
+    "description": "Pikmin 4 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 53,
+    "title": "Minecraft",
+    "genre": "แอ็กชัน / จำลองชีวิต",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2011,
+    "image": "https://img-cdn.heureka.group/v1/db8e0218-7122-55ce-a441-9b096c635e7a.jpg",
+    "description": "Minecraft — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 54,
+    "title": "Terraria",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2011,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/library_600x900.jpg",
+    "description": "Terraria — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 55,
+    "title": "No Man's Sky",
+    "genre": "ผจญภัย / จำลองชีวิต",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2016,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/library_600x900.jpg",
+    "description": "No Man's Sky — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 56,
+    "title": "Subnautica",
+    "genre": "ผจญภัย / จำลองชีวิต",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/library_600x900.jpg",
+    "description": "Subnautica — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 57,
+    "title": "Outer Wilds",
+    "genre": "ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2019,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/library_600x900.jpg",
+    "description": "Outer Wilds — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 58,
+    "title": "Portal 2",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2011,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/library_600x900.jpg",
+    "description": "Portal 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 59,
+    "title": "Half-Life 2",
+    "genre": "แอ็กชัน / ผจญภัย / ยิง",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2004,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/library_600x900.jpg",
+    "description": "Half-Life 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 60,
+    "title": "DOOM Eternal",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/library_600x900.jpg",
+    "description": "DOOM Eternal — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 61,
+    "title": "Resident Evil 4",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/library_600x900.jpg",
+    "description": "Resident Evil 4 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 62,
+    "title": "Resident Evil Village",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2021,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/library_600x900.jpg",
+    "description": "Resident Evil Village — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 63,
+    "title": "Silent Hill 2",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124490/library_600x900.jpg",
+    "description": "Silent Hill 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 64,
+    "title": "Alan Wake 2",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2023,
+    "image": "https://m.media-amazon.com/images/M/MV5BY2E1MzA1NTItOThiZi00OWJjLWJjMDMtMjMyOGU4NWI5MzM3XkEyXkFqcGc%40._V1_.jpg",
+    "description": "Alan Wake 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 65,
+    "title": "Dead by Daylight",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2016,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/library_600x900.jpg",
+    "description": "Dead by Daylight — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 66,
+    "title": "Phasmophobia",
+    "genre": "ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/library_600x900.jpg",
+    "description": "Phasmophobia — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 67,
+    "title": "Lethal Company",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/library_600x900.jpg",
+    "description": "Lethal Company — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 68,
+    "title": "VALORANT",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2020,
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/960px-Valorant_logo_-_pink_color_version.svg.png",
+    "description": "VALORANT — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 69,
+    "title": "Counter-Strike 2",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/library_600x900.jpg",
+    "description": "Counter-Strike 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 70,
+    "title": "Dota 2",
+    "genre": "วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2013,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/library_600x900.jpg",
+    "description": "Dota 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 71,
+    "title": "League of Legends",
+    "genre": "วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2009,
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+    "description": "League of Legends — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 72,
+    "title": "Apex Legends",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2019,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900.jpg",
+    "description": "Apex Legends — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 73,
+    "title": "Overwatch 2",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2022,
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/89/Overwatch_2_Steam_artwork.jpg",
+    "description": "Overwatch 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 74,
+    "title": "Fortnite",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2017,
+    "image": "https://static.thcdn.com/productimg/1600/1600/11492349-4314494124984020.jpg",
+    "description": "Fortnite — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 75,
+    "title": "PUBG: Battlegrounds",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2017,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/library_600x900.jpg",
+    "description": "PUBG: Battlegrounds — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 76,
+    "title": "Call of Duty: Modern Warfare II",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2022,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595230/library_hero.jpg",
+    "description": "Call of Duty: Modern Warfare II — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 77,
+    "title": "Tom Clancy's Rainbow Six Siege",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2015,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/library_600x900.jpg",
+    "description": "Tom Clancy's Rainbow Six Siege — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 78,
+    "title": "Hades",
+    "genre": "แอ็กชัน / RPG / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900.jpg",
+    "description": "Hades — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 79,
+    "title": "Balatro",
+    "genre": "วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/library_600x900.jpg",
+    "description": "Balatro — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 80,
+    "title": "Slay the Spire",
+    "genre": "วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2019,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/library_600x900.jpg",
+    "description": "Slay the Spire — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 81,
+    "title": "Civilization VI",
+    "genre": "วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2016,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/library_600x900.jpg",
+    "description": "Civilization VI — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 82,
+    "title": "Age of Empires II: Definitive Edition",
+    "genre": "วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2019,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/library_600x900.jpg",
+    "description": "Age of Empires II: Definitive Edition — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 83,
+    "title": "StarCraft II",
+    "genre": "วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2010,
+    "image": "https://cdn.mobygames.com/covers/9405481-starcraft-ii-wings-of-liberty-windows-front-cover.jpg",
+    "description": "StarCraft II — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 84,
+    "title": "XCOM 2",
+    "genre": "วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2016,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/library_600x900.jpg",
+    "description": "XCOM 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 85,
+    "title": "Into the Breach",
+    "genre": "วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590380/library_600x900.jpg",
+    "description": "Into the Breach — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 86,
+    "title": "Factorio",
+    "genre": "จำลองชีวิต / วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/library_600x900.jpg",
+    "description": "Factorio — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 87,
+    "title": "RimWorld",
+    "genre": "จำลองชีวิต / วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/library_600x900.jpg",
+    "description": "RimWorld — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 88,
+    "title": "Cities: Skylines",
+    "genre": "จำลองชีวิต",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2015,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/library_600x900.jpg",
+    "description": "Cities: Skylines — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 89,
+    "title": "The Sims 4",
+    "genre": "จำลองชีวิต",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2014,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/library_600x900.jpg",
+    "description": "The Sims 4 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 90,
+    "title": "Planet Zoo",
+    "genre": "จำลองชีวิต / วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2019,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/library_600x900.jpg",
+    "description": "Planet Zoo — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 91,
+    "title": "Two Point Hospital",
+    "genre": "จำลองชีวิต / วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/library_600x900.jpg",
+    "description": "Two Point Hospital — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 92,
+    "title": "Euro Truck Simulator 2",
+    "genre": "จำลองชีวิต",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2012,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/library_600x900.jpg",
+    "description": "Euro Truck Simulator 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 93,
+    "title": "Forza Horizon 5",
+    "genre": "กีฬา",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2021,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/library_600x900.jpg",
+    "description": "Forza Horizon 5 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 94,
+    "title": "Gran Turismo 7",
+    "genre": "กีฬา",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2022,
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/14/Gran_Turismo_7_cover_art.jpg",
+    "description": "Gran Turismo 7 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 95,
+    "title": "EA Sports FC 25",
+    "genre": "กีฬา",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669320/library_600x900.jpg",
+    "description": "EA Sports FC 25 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 96,
+    "title": "It Takes Two",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2021,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/library_600x900.jpg",
+    "description": "It Takes Two — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 97,
+    "title": "Overcooked! 2",
+    "genre": "แอ็กชัน / วางแผน",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/library_600x900.jpg",
+    "description": "Overcooked! 2 — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 98,
+    "title": "Journey",
+    "genre": "ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2012,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638230/library_600x900.jpg",
+    "description": "Journey — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 99,
+    "title": "Firewatch",
+    "genre": "ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2016,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383870/library_600x900.jpg",
+    "description": "Firewatch — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 100,
+    "title": "A Short Hike",
+    "genre": "ผจญภัย",
+    "platform": "PC · PlayStation · Xbox",
+    "year": 2019,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/library_600x900.jpg",
+    "description": "A Short Hike — สำรวจฉากและเรื่องราว ต่อสู้กับอุปสรรค และปลดล็อกความสามารถใหม่ระหว่างทาง"
+  },
+  {
+    "id": 102,
+    "title": "The Last of Us Part I",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC",
+    "year": 2022,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/library_600x900.jpg",
+    "description": "The Last of Us Part I — แอ็กชัน / ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 103,
+    "title": "God of War",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/library_600x900.jpg",
+    "description": "God of War — แอ็กชัน / ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 104,
+    "title": "God of War Ragnarök",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC",
+    "year": 2022,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/library_600x900.jpg",
+    "description": "God of War Ragnarök — แอ็กชัน / ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 105,
+    "title": "Marvel’s Spider-Man Remastered",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC",
+    "year": 2022,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/library_600x900.jpg",
+    "description": "Marvel’s Spider-Man Remastered — แอ็กชัน / ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 106,
+    "title": "Marvel’s Spider-Man: Miles Morales",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/library_600x900.jpg",
+    "description": "Marvel’s Spider-Man: Miles Morales — แอ็กชัน / ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 107,
+    "title": "Ghost of Tsushima DIRECTOR’S CUT",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/library_600x900.jpg",
+    "description": "Ghost of Tsushima DIRECTOR’S CUT — แอ็กชัน / ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 108,
+    "title": "Horizon Zero Dawn Complete Edition",
+    "genre": "แอ็กชัน / RPG",
+    "platform": "PC",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/library_600x900.jpg",
+    "description": "Horizon Zero Dawn Complete Edition — แอ็กชัน / RPG ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 109,
+    "title": "Horizon Forbidden West Complete Edition",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/library_600x900.jpg",
+    "description": "Horizon Forbidden West Complete Edition — แอ็กชัน / ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 110,
+    "title": "UNCHARTED: Legacy of Thieves Collection",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC",
+    "year": 2022,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659420/library_600x900.jpg",
+    "description": "UNCHARTED: Legacy of Thieves Collection — แอ็กชัน / ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 111,
+    "title": "Returnal",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649240/library_600x900.jpg",
+    "description": "Returnal — แอ็กชัน / ยิง ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 112,
+    "title": "ARMORED CORE VI FIRES OF RUBICON",
+    "genre": "แอ็กชัน",
+    "platform": "PC",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888160/library_600x900.jpg",
+    "description": "ARMORED CORE VI FIRES OF RUBICON — แอ็กชัน ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 113,
+    "title": "Black Myth: Wukong",
+    "genre": "แอ็กชัน / RPG",
+    "platform": "PC",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/library_600x900.jpg",
+    "description": "Black Myth: Wukong — แอ็กชัน / RPG ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 114,
+    "title": "Metaphor: ReFantazio",
+    "genre": "RPG",
+    "platform": "PC",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679460/library_600x900.jpg",
+    "description": "Metaphor: ReFantazio — RPG ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 115,
+    "title": "Octopath Traveler II",
+    "genre": "RPG",
+    "platform": "PC",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971650/library_600x900.jpg",
+    "description": "Octopath Traveler II — RPG ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 116,
+    "title": "Granblue Fantasy: Relink",
+    "genre": "แอ็กชัน / RPG",
+    "platform": "PC",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881020/library_600x900.jpg",
+    "description": "Granblue Fantasy: Relink — แอ็กชัน / RPG ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 117,
+    "title": "Yakuza: Like a Dragon",
+    "genre": "RPG / ผจญภัย",
+    "platform": "PC",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235140/library_600x900.jpg",
+    "description": "Yakuza: Like a Dragon — RPG / ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 118,
+    "title": "Resident Evil 2",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC",
+    "year": 2019,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/library_600x900.jpg",
+    "description": "Resident Evil 2 — แอ็กชัน / ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 119,
+    "title": "Resident Evil 3",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/952060/library_600x900.jpg",
+    "description": "Resident Evil 3 — แอ็กชัน / ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 120,
+    "title": "Resident Evil 7 Biohazard",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "platform": "PC",
+    "year": 2017,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418370/library_600x900.jpg",
+    "description": "Resident Evil 7 Biohazard — แอ็กชัน / ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 121,
+    "title": "Little Nightmares",
+    "genre": "ผจญภัย",
+    "platform": "PC",
+    "year": 2017,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/424840/library_600x900.jpg",
+    "description": "Little Nightmares — ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 122,
+    "title": "Little Nightmares II",
+    "genre": "ผจญภัย",
+    "platform": "PC",
+    "year": 2021,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/860510/library_600x900.jpg",
+    "description": "Little Nightmares II — ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 123,
+    "title": "A Way Out",
+    "genre": "ผจญภัย",
+    "platform": "PC",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/library_600x900.jpg",
+    "description": "A Way Out — ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 124,
+    "title": "The Forest",
+    "genre": "เอาชีวิตรอด",
+    "platform": "PC",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/library_600x900.jpg",
+    "description": "The Forest — เอาชีวิตรอด ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 125,
+    "title": "Sons Of The Forest",
+    "genre": "เอาชีวิตรอด",
+    "platform": "PC",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/library_600x900.jpg",
+    "description": "Sons Of The Forest — เอาชีวิตรอด ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 126,
+    "title": "Valheim",
+    "genre": "เอาชีวิตรอด",
+    "platform": "PC",
+    "year": 2021,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/library_600x900.jpg",
+    "description": "Valheim — เอาชีวิตรอด ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 127,
+    "title": "Rust",
+    "genre": "เอาชีวิตรอด",
+    "platform": "PC",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/library_600x900.jpg",
+    "description": "Rust — เอาชีวิตรอด ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 128,
+    "title": "DayZ",
+    "genre": "เอาชีวิตรอด",
+    "platform": "PC",
+    "year": 2018,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/library_600x900.jpg",
+    "description": "DayZ — เอาชีวิตรอด ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 129,
+    "title": "The Long Dark",
+    "genre": "เอาชีวิตรอด",
+    "platform": "PC",
+    "year": 2017,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/305620/library_600x900.jpg",
+    "description": "The Long Dark — เอาชีวิตรอด ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 130,
+    "title": "Grounded",
+    "genre": "เอาชีวิตรอด",
+    "platform": "PC",
+    "year": 2022,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/library_600x900.jpg",
+    "description": "Grounded — เอาชีวิตรอด ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 131,
+    "title": "Sea of Thieves",
+    "genre": "ผจญภัย",
+    "platform": "PC",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/library_600x900.jpg",
+    "description": "Sea of Thieves — ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 132,
+    "title": "Fall Guys",
+    "genre": "กีฬา",
+    "platform": "PC",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097150/library_600x900.jpg",
+    "description": "Fall Guys — กีฬา ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 133,
+    "title": "Team Fortress 2",
+    "genre": "ยิง",
+    "platform": "PC",
+    "year": 2007,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/library_600x900.jpg",
+    "description": "Team Fortress 2 — ยิง ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 134,
+    "title": "Warframe",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC",
+    "year": 2013,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/library_600x900.jpg",
+    "description": "Warframe — แอ็กชัน / ยิง ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 135,
+    "title": "Destiny 2",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC",
+    "year": 2017,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/library_600x900.jpg",
+    "description": "Destiny 2 — แอ็กชัน / ยิง ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 136,
+    "title": "War Thunder",
+    "genre": "แอ็กชัน / วางแผน",
+    "platform": "PC",
+    "year": 2013,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236390/library_600x900.jpg",
+    "description": "War Thunder — แอ็กชัน / วางแผน ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 137,
+    "title": "HELLDIVERS 2",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC",
+    "year": 2024,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/library_600x900.jpg",
+    "description": "HELLDIVERS 2 — แอ็กชัน / ยิง ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 138,
+    "title": "THE FINALS",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073850/library_600x900.jpg",
+    "description": "THE FINALS — แอ็กชัน / ยิง ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 139,
+    "title": "Hunt: Showdown 1896",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC",
+    "year": 2019,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594650/library_600x900.jpg",
+    "description": "Hunt: Showdown 1896 — แอ็กชัน / ยิง ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 140,
+    "title": "GTFO",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC",
+    "year": 2021,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/493520/library_600x900.jpg",
+    "description": "GTFO — แอ็กชัน / ยิง ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 141,
+    "title": "Ready or Not",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/library_600x900.jpg",
+    "description": "Ready or Not — แอ็กชัน / ยิง ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 142,
+    "title": "Darkest Dungeon",
+    "genre": "RPG / วางแผน",
+    "platform": "PC",
+    "year": 2016,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/library_600x900.jpg",
+    "description": "Darkest Dungeon — RPG / วางแผน ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 143,
+    "title": "DAVE THE DIVER",
+    "genre": "RPG / จำลองชีวิต",
+    "platform": "PC",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/library_600x900.jpg",
+    "description": "DAVE THE DIVER — RPG / จำลองชีวิต ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 144,
+    "title": "Cult of the Lamb",
+    "genre": "RPG / จำลองชีวิต",
+    "platform": "PC",
+    "year": 2022,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/library_600x900.jpg",
+    "description": "Cult of the Lamb — RPG / จำลองชีวิต ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 145,
+    "title": "DREDGE",
+    "genre": "ผจญภัย",
+    "platform": "PC",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1562430/library_600x900.jpg",
+    "description": "DREDGE — ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 146,
+    "title": "Sea of Stars",
+    "genre": "RPG / ผจญภัย",
+    "platform": "PC",
+    "year": 2023,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/library_600x900.jpg",
+    "description": "Sea of Stars — RPG / ผจญภัย ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 147,
+    "title": "The Binding of Isaac: Rebirth",
+    "genre": "แอ็กชัน / RPG",
+    "platform": "PC",
+    "year": 2014,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/library_600x900.jpg",
+    "description": "The Binding of Isaac: Rebirth — แอ็กชัน / RPG ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 148,
+    "title": "Enter the Gungeon",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC",
+    "year": 2016,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311690/library_600x900.jpg",
+    "description": "Enter the Gungeon — แอ็กชัน / ยิง ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 149,
+    "title": "Risk of Rain 2",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/library_600x900.jpg",
+    "description": "Risk of Rain 2 — แอ็กชัน / ยิง ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 150,
+    "title": "Deep Rock Galactic",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC",
+    "year": 2020,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/library_600x900.jpg",
+    "description": "Deep Rock Galactic — แอ็กชัน / ยิง ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  },
+  {
+    "id": 151,
+    "title": "Left 4 Dead 2",
+    "genre": "แอ็กชัน / ยิง",
+    "platform": "PC",
+    "year": 2009,
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/library_600x900.jpg",
+    "description": "Left 4 Dead 2 — แอ็กชัน / ยิง ที่ชวนให้ผู้เล่นออกสำรวจ ทดลองกลยุทธ์ และค้นพบประสบการณ์ในแบบของตัวเอง"
+  }
+]

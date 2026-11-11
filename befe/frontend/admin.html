@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10110f">
+  <title>จัดการระบบ — PLAYLOG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/admin.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">PLAYLOG<span class="brand-dot">.</span></a>
+    <nav><a href="/">กลับหน้าหลัก</a></nav>
+    <div class="top-actions"><span id="adminIdentity" class="account-name"></span><button id="signOut" class="account-btn">ออกจากระบบ</button></div>
+  </header>
+  <main class="admin-main">
+    <div class="eyebrow muted">PLAYLOG CONTROL ROOM</div>
+    <h1>จัดการระบบ<span class="accent">.</span></h1>
+    <p class="admin-intro">เพิ่มและแก้ไขข้อมูลเกม พร้อมตรวจสอบหรือนำรีวิวที่ไม่เหมาะสมออก</p>
+    <div id="adminMessage" class="admin-message" role="status">กำลังตรวจสอบสิทธิ์ผู้ดูแลระบบ…</div>
+    <div id="adminWorkspace" hidden>
+      <section class="admin-panel">
+        <div class="admin-panel-heading"><div><div class="eyebrow muted">CATALOG</div><h2 id="gameFormTitle">เพิ่มเกม</h2></div></div>
+        <form id="gameForm" class="admin-form">
+          <label>ชื่อเกม<input name="title" maxlength="120" required></label>
+          <label>แนวเกม<input name="genre" maxlength="80" required></label>
+          <label>แพลตฟอร์ม<input name="platform" maxlength="100" required></label>
+          <label>ปีที่วางจำหน่าย<input name="year" type="number" min="1970" max="2200" required></label>
+          <label class="wide">ลิงก์รูปภาพ (HTTPS)<input name="image" type="url" placeholder="https://…" required></label>
+          <label class="wide">คำอธิบาย<textarea name="description" rows="3" maxlength="1000" required></textarea></label>
+          <div class="admin-form-actions"><button class="submit-btn" type="submit">บันทึกเกม <span>↗</span></button><button id="cancelEdit" type="button" class="outline-btn" hidden>ยกเลิกแก้ไข</button></div>
+        </form>
+        <div class="table-wrap"><table><thead><tr><th>ID</th><th>เกม</th><th>แนว</th><th>จัดการ</th></tr></thead><tbody id="gameRows"></tbody></table></div>
+      </section>
+      <section class="admin-panel">
+        <div class="admin-panel-heading"><div><div class="eyebrow muted">COMMUNITY</div><h2>รีวิวจากสมาชิก</h2></div></div>
+        <div id="reviewRows" class="admin-reviews"></div>
+      </section>
+    </div>
+  </main>
+  <div id="adminToast" class="admin-toast" role="status" aria-live="polite" hidden></div>
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+  <script src="/admin.js"></script>
+</body>
+</html>

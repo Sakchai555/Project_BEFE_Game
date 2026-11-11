@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: playlog-api
+    runtime: go
+    plan: free
+    region: singapore
+    buildCommand: go build -tags netgo -ldflags '-s -w' -o app ./backend
+    startCommand: ./app
+    healthCheckPath: /api/health
+    envVars:
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: FRONTEND_ORIGIN
+        value: https://playlog-game-reviews.vercel.app
+
+
