@@ -4,6 +4,7 @@ services:
     runtime: go
     plan: free
     region: singapore
+    rootDir: befe
     buildCommand: go build -tags netgo -ldflags '-s -w' -o app ./backend
     startCommand: ./app
     healthCheckPath: /api/health
@@ -13,6 +14,6 @@ services:
       - key: SUPABASE_ANON_KEY
         sync: false
       - key: FRONTEND_ORIGIN
-        value: https://playlog-game-reviews.vercel.app
+        sync: false
 
 
