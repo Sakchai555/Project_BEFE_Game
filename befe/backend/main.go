@@ -583,18 +583,18 @@ func (s *server) static(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	// Serve the React production build when present. The source frontend remains
-	// a fallback so the Go API can still show the legacy page during migration.
 	root := filepath.Join("build")
-	if _, err := os.Stat(filepath.Join(root, "index.html")); err != nil {
-		root = filepath.Join("frontend")
+	indexFile := filepath.Join(root, "index.html")
+	if _, err := os.Stat(indexFile); err != nil {
+		http.Error(w, "Frontend build not found. Run npm run build.", http.StatusServiceUnavailable)
+		return
 	}
 	file := filepath.Join(root, filepath.Clean("/"+r.URL.Path))
 	if info, err := os.Stat(file); err == nil && !info.IsDir() {
 		http.ServeFile(w, r, file)
 		return
 	}
-	http.ServeFile(w, r, filepath.Join(root, "index.html"))
+	http.ServeFile(w, r, indexFile)
 }
 
 func bearer(r *http.Request) string {

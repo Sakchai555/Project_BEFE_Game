@@ -17,7 +17,6 @@
 - `src/services/` — การเรียก REST API จาก frontend
 - `src/data/` และ `src/utils/` — ตัวเลือกหมวดหมู่และ helper สำหรับบัญชี/แหล่งจำหน่ายเกม
 - `src/styles/` — stylesheet ของหน้าร้านและหน้า Admin
-- `frontend/` — ไฟล์หน้าเว็บรุ่นเดิม เก็บไว้เป็นแหล่งอ้างอิงระหว่างย้ายระบบ
 - `backend/main.go` — REST API เขียนด้วย Go standard library
 - `supabase/` — schema, RLS policies, seed เกม และ SQL ตั้งผู้ดูแลคนแรก
 - `api/config.js` — Vercel Function ส่งค่าตั้งต้นจาก Render ให้ frontend
