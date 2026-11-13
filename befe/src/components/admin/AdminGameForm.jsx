@@ -105,7 +105,7 @@ export default function AdminGameForm({
         </label>
         <div className="admin-form-actions">
           <button className="submit-btn" type="submit" disabled={busy}>
-            {busy ? "กำลังบันทึก…" : "บันทึกเกม"} <span>↗</span>
+            {busy ? "กำลังบันทึก…" : "บันทึกเกม"}
           </button>
           {editingId && (
             <button className="outline-btn" type="button" onClick={resetForm}>

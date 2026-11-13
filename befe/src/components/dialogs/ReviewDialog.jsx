@@ -52,6 +52,9 @@ export function ReviewDialog({
         </label>
         <div className="review-game-preview">
           <img
+            className={
+              game?.imageFit === "contain" ? "game-art-contain" : undefined
+            }
             src={game?.image || ""}
             alt={game ? `ปกเกม ${game.title}` : ""}
           />

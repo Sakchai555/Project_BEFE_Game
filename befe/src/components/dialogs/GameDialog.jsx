@@ -56,7 +56,7 @@ export function GameDialog({
           <div className="detail-layout">
             <div className="detail-poster-column">
               <img
-                className="detail-poster"
+                className={`detail-poster ${game.imageFit === "contain" ? "game-art-contain" : ""}`}
                 src={game.image}
                 alt={game.title}
               />
@@ -152,7 +152,16 @@ export function GameDialog({
                       key={candidate.id}
                       onClick={() => onSimilar(candidate.id)}
                     >
-                      <img src={candidate.image} alt="" loading="lazy" />
+                      <img
+                        className={
+                          candidate.imageFit === "contain"
+                            ? "game-art-contain"
+                            : undefined
+                        }
+                        src={candidate.image}
+                        alt=""
+                        loading="lazy"
+                      />
                       <span className="similar-game-copy">
                         <strong>{candidate.title}</strong>
                         <small>{shared.join(" · ")}</small>

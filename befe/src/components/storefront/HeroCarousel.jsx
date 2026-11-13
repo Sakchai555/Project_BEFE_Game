@@ -39,8 +39,15 @@ export default function HeroCarousel({
               return (
                 <article className="hero-slide" key={game.id}>
                   <img
+                    className={
+                      game.imageFit === "contain"
+                        ? "game-art-contain"
+                        : undefined
+                    }
                     src={art}
                     onError={(event) => {
+                      if (event.currentTarget.dataset.fallbackApplied) return;
+                      event.currentTarget.dataset.fallbackApplied = "true";
                       event.currentTarget.src = game.image;
                     }}
                     alt={`ภาพแบนเนอร์เกม ${game.title}`}

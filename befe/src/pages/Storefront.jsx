@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { request } from "../services/api";
 import { userLabel, profileErrorMessage } from "../utils/account";
 import { storesFor } from "../utils/gameStores";
+import { withKnownGameArtwork } from "../utils/gameImages";
 import { filterGames, getRevealStep, getVisibleGames } from "../catalog";
 import StoreHeader from "../components/storefront/StoreHeader";
 import HeroCarousel from "../components/storefront/HeroCarousel";
@@ -115,7 +116,7 @@ export default function Storefront() {
     if (!configReady || authError) return;
     setGamesLoading(true);
     request("/api/games", {}, apiBase)
-      .then((data) => setGames(data.games || []))
+      .then((data) => setGames((data.games || []).map(withKnownGameArtwork)))
       .catch((error) => setAuthError(error.message))
       .finally(() => setGamesLoading(false));
   }, [apiBase, configReady, authError]);

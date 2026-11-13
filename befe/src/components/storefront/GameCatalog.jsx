@@ -87,12 +87,19 @@ export default function GameCatalog({
               className="game-card"
               data-id={game.id}
               key={game.id}
-                style={{ animationDelay: `${Math.min(index, 12) * 22}ms` }}
+              style={{ animationDelay: `${Math.min(index, 12) * 22}ms` }}
               onClick={() => showGame(game.id)}
               aria-label={`ดูรายละเอียด ${game.title}`}
             >
               <div className="poster">
-                <img src={game.image} alt="" loading="lazy" />
+                <img
+                  className={
+                    game.imageFit === "contain" ? "game-art-contain" : undefined
+                  }
+                  src={game.image}
+                  alt=""
+                  loading="lazy"
+                />
                 <span className="game-no">
                   {String(index + 1).padStart(2, "0")} /{" "}
                   {String(list.length).padStart(2, "0")}

@@ -36,7 +36,14 @@ export default function CommunitySection({
             aria-label={`ดูรายละเอียด ${game.title}`}
           >
             <span className="community-pick-art">
-              <img src={game.image} alt="" loading="lazy" />
+              <img
+                className={
+                  game.imageFit === "contain" ? "game-art-contain" : undefined
+                }
+                src={game.image}
+                alt=""
+                loading="lazy"
+              />
               <span className="community-pick-rank">
                 {String(index + 1).padStart(2, "0")}
               </span>
