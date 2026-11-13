@@ -4305,3 +4305,65 @@ body * {
     animation: none;
   }
 }
+
+/* Shared motion polish for controls and content that enters as a list. */
+:root {
+  --motion-ease: cubic-bezier(0.2, 0.75, 0.25, 1);
+  --motion-control: 190ms;
+}
+
+:where(button, a[href]) {
+  transition-property:
+    color, background-color, border-color, box-shadow, opacity, transform, filter;
+  transition-duration: var(--motion-control);
+  transition-timing-function: var(--motion-ease);
+}
+
+:where(input, select, textarea) {
+  transition-property: color, background-color, border-color, box-shadow;
+  transition-duration: var(--motion-control);
+  transition-timing-function: var(--motion-ease);
+}
+
+:where(button:not(:disabled):hover, a[href]:hover) {
+  transform: translateY(-1px);
+}
+
+:where(button:not(:disabled):active, a[href]:active) {
+  transform: translateY(0) scale(0.985);
+}
+
+.game-card {
+  animation-duration: 360ms;
+  animation-timing-function: var(--motion-ease);
+}
+
+.community-pick,
+.admin-review,
+.table-wrap tbody tr {
+  animation: listItemReveal 360ms var(--motion-ease) both;
+}
+
+@keyframes listItemReveal {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(button, a[href], input, select, textarea) {
+    transition-duration: 0.01ms !important;
+  }
+
+  .game-card,
+  .community-pick,
+  .admin-review,
+  .table-wrap tbody tr {
+    animation: none !important;
+  }
+}

@@ -15,8 +15,12 @@ export default function AdminReviewList({
         {reviewsLoading ? (
           <p className="empty-row">กำลังโหลดรีวิว…</p>
         ) : reviews.length ? (
-          reviews.map((review) => (
-            <article className="admin-review" key={review.id}>
+          reviews.map((review, index) => (
+            <article
+              className="admin-review"
+              key={review.id}
+              style={{ animationDelay: `${Math.min(index, 8) * 35}ms` }}
+            >
               <div className="admin-review-head">
                 <strong>
                   {review.author_name} · {review.game_title}

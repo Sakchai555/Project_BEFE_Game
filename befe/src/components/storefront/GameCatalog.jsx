@@ -87,6 +87,7 @@ export default function GameCatalog({
               className="game-card"
               data-id={game.id}
               key={game.id}
+                style={{ animationDelay: `${Math.min(index, 12) * 22}ms` }}
               onClick={() => showGame(game.id)}
               aria-label={`ดูรายละเอียด ${game.title}`}
             >

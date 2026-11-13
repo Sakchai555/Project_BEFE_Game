@@ -31,6 +31,7 @@ export default function CommunitySection({
             type="button"
             className="community-pick"
             key={game.id}
+            style={{ animationDelay: `${Math.min(index, 5) * 45}ms` }}
             onClick={() => showGame(game.id)}
             aria-label={`ดูรายละเอียด ${game.title}`}
           >

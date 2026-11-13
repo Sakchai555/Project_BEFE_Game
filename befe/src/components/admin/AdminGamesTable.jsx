@@ -25,8 +25,11 @@ export default function AdminGamesTable({
             </tr>
           </thead>
           <tbody>
-            {games.map((game) => (
-              <tr key={game.id}>
+            {games.map((game, index) => (
+              <tr
+                key={game.id}
+                style={{ animationDelay: `${Math.min(index, 12) * 18}ms` }}
+              >
                 <td>{game.id}</td>
                 <td>{game.title}</td>
                 <td>{game.genre}</td>
