@@ -63,4 +63,3 @@ Copy-Item .env.example .env
 แก้ `data/games.json` แล้วรัน `npm run seed:sql` เพื่อสร้าง `supabase/seed.sql`
 
 เว็บและ API จะเปิดที่ `http://localhost:10000` เมื่อ Supabase ตั้งค่าและรัน SQL แล้ว ส่วนการเชื่อมบัญชีและ deploy บน Vercel, Render และ Supabase ต้องทำในบัญชีของเจ้าของโปรเจกต์
-

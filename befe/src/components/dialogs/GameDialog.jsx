@@ -1,11 +1,262 @@
-import { useEffect, useRef, useState } from 'react';
-import DialogFrame from './DialogFrame';
+import { useEffect, useRef, useState } from "react";
+import DialogFrame from "./DialogFrame";
 
-export function GameDialog({ ref: dialogRef, game, games, favorites, user, reviews, reviewLoading, comment, setComment, stores, similar, switching, closing, onClose, onFavorite, onRate, onComment, onSimilar, onAuth }) {
-  const [commentNotice, setCommentNotice] = useState('');
+export function GameDialog({
+  ref: dialogRef,
+  game,
+  games,
+  favorites,
+  user,
+  reviews,
+  reviewLoading,
+  comment,
+  setComment,
+  stores,
+  similar,
+  switching,
+  closing,
+  onClose,
+  onFavorite,
+  onRate,
+  onComment,
+  onSimilar,
+  onAuth,
+}) {
+  const [commentNotice, setCommentNotice] = useState("");
   const [commentNoticeVisible, setCommentNoticeVisible] = useState(false);
   const commentNoticeTimer = useRef(null);
-  const showCommentNotice = message => { setCommentNotice(message); setCommentNoticeVisible(true); clearTimeout(commentNoticeTimer.current); commentNoticeTimer.current = setTimeout(() => { setCommentNoticeVisible(false); commentNoticeTimer.current = setTimeout(() => setCommentNotice(''), 600); }, 2500); };
+  const showCommentNotice = (message) => {
+    setCommentNotice(message);
+    setCommentNoticeVisible(true);
+    clearTimeout(commentNoticeTimer.current);
+    commentNoticeTimer.current = setTimeout(() => {
+      setCommentNoticeVisible(false);
+      commentNoticeTimer.current = setTimeout(() => setCommentNotice(""), 600);
+    }, 2500);
+  };
   useEffect(() => () => clearTimeout(commentNoticeTimer.current), []);
-  return <DialogFrame dialogRef={dialogRef} className="game-dialog" onClose={onClose}>{game && <div className={`detail-card ${closing ? 'is-closing' : ''}`}><button type="button" className="close" aria-label="ปิด" onClick={onClose}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 7 10 10M17 7 7 17" /></svg></button><div className="detail-layout"><div className="detail-poster-column"><img className="detail-poster" src={game.image} alt={game.title} /><div className="game-store-row"><span>แหล่งเกม</span><div className="game-store-badges">{stores.map(store => <a className="game-store-badge" key={store.label} href={store.url} target="_blank" rel="noopener noreferrer">{store.label} <span>↗</span></a>)}</div></div><div className="detail-rating"><span>คะแนนของคุณ / 10</span><div className="score-options" role="radiogroup" aria-label="ให้คะแนนเกม">{Array.from({ length: 10 }, (_, index) => index + 1).map(score => <button type="button" key={score} className={Number(game.user_rating || 0) >= score ? 'selected' : ''} aria-label={`${score} จาก 10`} onClick={() => onRate(score)}>{score}</button>)}</div><small>{game.user_rating ? `คุณให้ ${game.user_rating}/10` : user ? 'เลือกคะแนนที่ต้องการให้' : 'เข้าสู่ระบบเพื่อให้คะแนน'}</small></div></div><div className={`detail-info ${switching ? 'is-switching' : ''}`}><div className="eyebrow muted">{game.genre}</div><h2>{game.title}</h2><div className="detail-meta">{game.year} · {game.platform}</div><div className="detail-community-score"><span>คะแนนชุมชน</span><strong>{game.average_rating == null ? '—/10' : `${Number(game.average_rating).toFixed(1)}/10`}</strong><small>{game.vote_count || 0} คะแนน</small></div><p className="detail-description">{game.description}</p><button type="button" className={`favorite-btn ${favorites.has(Number(game.id)) ? 'is-favorite' : ''}`} aria-pressed={favorites.has(Number(game.id))} onClick={onFavorite}>{favorites.has(Number(game.id)) ? '♥' : '♡'} <span>{favorites.has(Number(game.id)) ? 'อยู่ในเกมโปรดแล้ว' : 'เพิ่มเกมโปรด'}</span></button><section className="similar-games"><div className="similar-games-heading"><span>ถ้าชอบเกมนี้ ลองดู</span><small>เกมหมวดใกล้เคียง</small></div><div className="similar-game-list">{similar.map(({ game: candidate, shared }) => <button type="button" className="similar-game" key={candidate.id} onClick={() => onSimilar(candidate.id)}><img src={candidate.image} alt="" loading="lazy" /><span className="similar-game-copy"><strong>{candidate.title}</strong><small>{shared.join(' · ')}</small></span><span className="similar-game-score">{candidate.average_rating == null ? '—' : Number(candidate.average_rating).toFixed(1)}</span></button>)}</div></section></div></div><aside className={`detail-community ${switching ? 'is-switching' : ''}`}><div className="detail-community-heading"><div><span>PLAYER DISCUSSION</span><h3>คอมเมนต์จากผู้เล่น</h3></div><small>{reviewLoading ? 'กำลังโหลด' : `${reviews.length} รายการ`}</small></div><section className="detail-review-list">{reviewLoading ? <p className="detail-review-empty">กำลังโหลดคอมเมนต์…</p> : reviews.length ? reviews.map(item => <article className="detail-review" key={item.id}><div><strong>{item.author_name}</strong><small>{item.score ? `คะแนน ${item.score}/10` : 'คอมเมนต์'}</small></div><p>{item.body}</p><time>{new Date(item.created_at).toLocaleDateString('th-TH')}</time></article>) : <p className="detail-review-empty">ยังไม่มีคอมเมนต์ เกมนี้รอคุณเริ่มบทสนทนาอยู่</p>}</section><form className="detail-comment-form" onSubmit={event => { event.preventDefault(); if (!user) { onAuth(); return; } const text = comment.trim(); if (!text) { showCommentNotice("กรุณากรอกข้อความ"); return; } if (text.length < 2) { showCommentNotice("กรุณากรอกข้อความอย่างน้อย 2 ตัวอักษร"); return; } onComment(); }}><div className="detail-review-heading">ร่วมคุยเกี่ยวกับเกมนี้</div>{commentNotice && <div className={`comment-validation-toast ${commentNoticeVisible ? "is-visible" : "is-hiding"}`} role="alert" aria-live="assertive">{commentNotice}</div>}<label htmlFor="detailComment">เขียนคอมเมนต์</label><textarea id="detailComment" rows="3" maxLength="1000" placeholder="แชร์ความคิดเห็นหรือประสบการณ์ของคุณ..." value={comment} onChange={event => setComment(event.target.value)} /><button type="submit" className="submit-btn">Send <span aria-hidden="true">🎮</span></button>{!user && <small className="comment-hint">เข้าสู่ระบบก่อนส่งคอมเมนต์</small>}</form></aside></div>}</DialogFrame>;
+  return (
+    <DialogFrame
+      dialogRef={dialogRef}
+      className="game-dialog"
+      onClose={onClose}
+    >
+      {game && (
+        <div className={`detail-card ${closing ? "is-closing" : ""}`}>
+          <button
+            type="button"
+            className="close"
+            aria-label="ปิด"
+            onClick={onClose}
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m7 7 10 10M17 7 7 17" />
+            </svg>
+          </button>
+          <div className="detail-layout">
+            <div className="detail-poster-column">
+              <img
+                className="detail-poster"
+                src={game.image}
+                alt={game.title}
+              />
+              <div className="game-store-row">
+                <span>แหล่งเกม</span>
+                <div className="game-store-badges">
+                  {stores.map((store) => (
+                    <a
+                      className="game-store-badge"
+                      key={store.label}
+                      href={store.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {store.label} <span>↗</span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+              <div className="detail-rating">
+                <span>คะแนนของคุณ / 10</span>
+                <div
+                  className="score-options"
+                  role="radiogroup"
+                  aria-label="ให้คะแนนเกม"
+                >
+                  {Array.from({ length: 10 }, (_, index) => index + 1).map(
+                    (score) => (
+                      <button
+                        type="button"
+                        key={score}
+                        className={
+                          Number(game.user_rating || 0) >= score
+                            ? "selected"
+                            : ""
+                        }
+                        aria-label={`${score} จาก 10`}
+                        onClick={() => onRate(score)}
+                      >
+                        {score}
+                      </button>
+                    ),
+                  )}
+                </div>
+                <small>
+                  {game.user_rating
+                    ? `คุณให้ ${game.user_rating}/10`
+                    : user
+                      ? "เลือกคะแนนที่ต้องการให้"
+                      : "เข้าสู่ระบบเพื่อให้คะแนน"}
+                </small>
+              </div>
+            </div>
+            <div className={`detail-info ${switching ? "is-switching" : ""}`}>
+              <div className="eyebrow muted">{game.genre}</div>
+              <h2>{game.title}</h2>
+              <div className="detail-meta">
+                {game.year} · {game.platform}
+              </div>
+              <div className="detail-community-score">
+                <span>คะแนนชุมชน</span>
+                <strong>
+                  {game.average_rating == null
+                    ? "—/10"
+                    : `${Number(game.average_rating).toFixed(1)}/10`}
+                </strong>
+                <small>{game.vote_count || 0} คะแนน</small>
+              </div>
+              <p className="detail-description">{game.description}</p>
+              <button
+                type="button"
+                className={`favorite-btn ${favorites.has(Number(game.id)) ? "is-favorite" : ""}`}
+                aria-pressed={favorites.has(Number(game.id))}
+                onClick={onFavorite}
+              >
+                {favorites.has(Number(game.id)) ? "♥" : "♡"}{" "}
+                <span>
+                  {favorites.has(Number(game.id))
+                    ? "อยู่ในเกมโปรดแล้ว"
+                    : "เพิ่มเกมโปรด"}
+                </span>
+              </button>
+              <section className="similar-games">
+                <div className="similar-games-heading">
+                  <span>ถ้าชอบเกมนี้ ลองดู</span>
+                  <small>เกมหมวดใกล้เคียง</small>
+                </div>
+                <div className="similar-game-list">
+                  {similar.map(({ game: candidate, shared }) => (
+                    <button
+                      type="button"
+                      className="similar-game"
+                      key={candidate.id}
+                      onClick={() => onSimilar(candidate.id)}
+                    >
+                      <img src={candidate.image} alt="" loading="lazy" />
+                      <span className="similar-game-copy">
+                        <strong>{candidate.title}</strong>
+                        <small>{shared.join(" · ")}</small>
+                      </span>
+                      <span className="similar-game-score">
+                        {candidate.average_rating == null
+                          ? "—"
+                          : Number(candidate.average_rating).toFixed(1)}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </section>
+            </div>
+          </div>
+          <aside
+            className={`detail-community ${switching ? "is-switching" : ""}`}
+          >
+            <div className="detail-community-heading">
+              <div>
+                <span>PLAYER DISCUSSION</span>
+                <h3>คอมเมนต์จากผู้เล่น</h3>
+              </div>
+              <small>
+                {reviewLoading ? "กำลังโหลด" : `${reviews.length} รายการ`}
+              </small>
+            </div>
+            <section className="detail-review-list">
+              {reviewLoading ? (
+                <p className="detail-review-empty">กำลังโหลดคอมเมนต์…</p>
+              ) : reviews.length ? (
+                reviews.map((item) => (
+                  <article className="detail-review" key={item.id}>
+                    <div>
+                      <strong>{item.author_name}</strong>
+                      <small>
+                        {item.score ? `คะแนน ${item.score}/10` : "คอมเมนต์"}
+                      </small>
+                    </div>
+                    <p>{item.body}</p>
+                    <time>
+                      {new Date(item.created_at).toLocaleDateString("th-TH")}
+                    </time>
+                  </article>
+                ))
+              ) : (
+                <p className="detail-review-empty">
+                  ยังไม่มีคอมเมนต์ เกมนี้รอคุณเริ่มบทสนทนาอยู่
+                </p>
+              )}
+            </section>
+            <form
+              className="detail-comment-form"
+              onSubmit={(event) => {
+                event.preventDefault();
+                if (!user) {
+                  onAuth();
+                  return;
+                }
+                const text = comment.trim();
+                if (!text) {
+                  showCommentNotice("กรุณากรอกข้อความ");
+                  return;
+                }
+                if (text.length < 2) {
+                  showCommentNotice("กรุณากรอกข้อความอย่างน้อย 2 ตัวอักษร");
+                  return;
+                }
+                onComment();
+              }}
+            >
+              <div className="detail-review-heading">
+                ร่วมคุยเกี่ยวกับเกมนี้
+              </div>
+              {commentNotice && (
+                <div
+                  className={`comment-validation-toast ${commentNoticeVisible ? "is-visible" : "is-hiding"}`}
+                  role="alert"
+                  aria-live="assertive"
+                >
+                  {commentNotice}
+                </div>
+              )}
+              <label htmlFor="detailComment">เขียนคอมเมนต์</label>
+              <textarea
+                id="detailComment"
+                rows="3"
+                maxLength="1000"
+                placeholder="แชร์ความคิดเห็นหรือประสบการณ์ของคุณ..."
+                value={comment}
+                onChange={(event) => setComment(event.target.value)}
+              />
+              <button type="submit" className="submit-btn">
+                Send <span aria-hidden="true">🎮</span>
+              </button>
+              {!user && (
+                <small className="comment-hint">
+                  เข้าสู่ระบบก่อนส่งคอมเมนต์
+                </small>
+              )}
+            </form>
+          </aside>
+        </div>
+      )}
+    </DialogFrame>
+  );
 }

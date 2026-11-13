@@ -634,4 +634,3 @@ func writeError(w http.ResponseWriter, status int, message string) {
 func methodNotAllowed(w http.ResponseWriter) {
 	writeError(w, http.StatusMethodNotAllowed, "Method not allowed")
 }
-

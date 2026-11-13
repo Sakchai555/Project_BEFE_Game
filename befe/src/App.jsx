@@ -1,6 +1,6 @@
-import { Route, Routes } from 'react-router-dom';
-import Storefront from './pages/Storefront';
-import AdminPage from './pages/AdminPage';
+import { Route, Routes } from "react-router-dom";
+import Storefront from "./pages/Storefront";
+import AdminPage from "./pages/AdminPage";
 
 export default function App() {
   return (

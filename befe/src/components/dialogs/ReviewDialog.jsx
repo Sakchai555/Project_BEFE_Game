@@ -1,6 +1,105 @@
-import DialogFrame from './DialogFrame';
+import DialogFrame from "./DialogFrame";
 
-export function ReviewDialog({ ref: dialogRef, open, games, gameId, setGameId, score, setScore, text, setText, name, onClose, onSubmit }) {
-  const game = games.find(item => String(item.id) === String(gameId));
-  return <DialogFrame dialogRef={dialogRef} className="review-dialog" onClose={onClose}><form className="dialog-card" onSubmit={onSubmit}><button type="button" className="close" aria-label="ปิด" onClick={onClose}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 7 10 10M17 7 7 17" /></svg></button><div className="eyebrow muted">YOUR REVIEW</div><h2>เล่าให้เราฟัง<span className="accent">.</span></h2><label>เลือกเกม<select value={gameId} onChange={event => setGameId(event.target.value)} required>{games.map(item => <option key={item.id} value={item.id}>{item.title}</option>)}</select></label><div className="review-game-preview"><img src={game?.image || ''} alt={game ? `ปกเกม ${game.title}` : ''} /><div><small>เกมที่เลือก</small><strong>{game?.title || ''}</strong></div></div><label>ให้คะแนน <span className="rating-hint">เลือกระดับ 1–10</span><div className="score-picker" role="radiogroup" aria-label="เลือกคะแนน">{Array.from({ length: 10 }, (_, index) => index + 1).map(value => <button type="button" key={value} className={score >= value ? 'selected' : ''} onClick={() => setScore(value)}>{value}</button>)}<span>{score} / 10</span></div></label><div className="reviewing-as">รีวิวในนาม <strong>{name}</strong></div><label>รีวิว<textarea placeholder="เกมนี้ทำให้คุณรู้สึกยังไง?" rows="4" maxLength="500" value={text} onChange={event => setText(event.target.value)} required /></label><button type="submit" className="submit-btn">เผยแพร่รีวิว <span>↗</span></button></form></DialogFrame>;
+export function ReviewDialog({
+  ref: dialogRef,
+  open,
+  games,
+  gameId,
+  setGameId,
+  score,
+  setScore,
+  text,
+  setText,
+  name,
+  onClose,
+  onSubmit,
+}) {
+  const game = games.find((item) => String(item.id) === String(gameId));
+  return (
+    <DialogFrame
+      dialogRef={dialogRef}
+      className="review-dialog"
+      onClose={onClose}
+    >
+      <form className="dialog-card" onSubmit={onSubmit}>
+        <button
+          type="button"
+          className="close"
+          aria-label="ปิด"
+          onClick={onClose}
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m7 7 10 10M17 7 7 17" />
+          </svg>
+        </button>
+        <div className="eyebrow muted">YOUR REVIEW</div>
+        <h2>
+          เล่าให้เราฟัง<span className="accent">.</span>
+        </h2>
+        <label>
+          เลือกเกม
+          <select
+            value={gameId}
+            onChange={(event) => setGameId(event.target.value)}
+            required
+          >
+            {games.map((item) => (
+              <option key={item.id} value={item.id}>
+                {item.title}
+              </option>
+            ))}
+          </select>
+        </label>
+        <div className="review-game-preview">
+          <img
+            src={game?.image || ""}
+            alt={game ? `ปกเกม ${game.title}` : ""}
+          />
+          <div>
+            <small>เกมที่เลือก</small>
+            <strong>{game?.title || ""}</strong>
+          </div>
+        </div>
+        <label>
+          ให้คะแนน <span className="rating-hint">เลือกระดับ 1–10</span>
+          <div
+            className="score-picker"
+            role="radiogroup"
+            aria-label="เลือกคะแนน"
+          >
+            {Array.from({ length: 10 }, (_, index) => index + 1).map(
+              (value) => (
+                <button
+                  type="button"
+                  key={value}
+                  className={score >= value ? "selected" : ""}
+                  onClick={() => setScore(value)}
+                >
+                  {value}
+                </button>
+              ),
+            )}
+            <span>{score} / 10</span>
+          </div>
+        </label>
+        <div className="reviewing-as">
+          รีวิวในนาม <strong>{name}</strong>
+        </div>
+        <label>
+          รีวิว
+          <textarea
+            placeholder="เกมนี้ทำให้คุณรู้สึกยังไง?"
+            rows="4"
+            maxLength="500"
+            value={text}
+            onChange={(event) => setText(event.target.value)}
+            required
+          />
+        </label>
+        <button type="submit" className="submit-btn">
+          เผยแพร่รีวิว <span>↗</span>
+        </button>
+      </form>
+    </DialogFrame>
+  );
 }
