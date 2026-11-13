@@ -4278,3 +4278,185 @@ body * {
 .hero-slide img.game-art-contain {
   filter: none;
 }
+
+/* Final storefront polish: clearer cards, readable controls, and compact layouts. */
+.game-card {
+  overflow: hidden;
+  border: 1px solid rgba(177, 190, 130,  0.13);
+  border-radius: 9px;
+  background: linear-gradient(180deg, #191a15, #12130f);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.16);
+  text-align: left;
+}
+.game-card:hover,
+.game-card:focus-visible {
+  border-color: rgba(196, 239, 89, 0.52);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(196, 239, 89, 0.08);
+}
+.game-card .poster {
+  border-radius: 8px 8px 0 0;
+}
+.game-card .poster img {
+  filter: saturate(0.78) brightness(0.88);
+}
+.game-card:hover .poster img {
+  filter: saturate(1) brightness(1);
+}
+.game-card .poster-title {
+  right: 14px;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+}
+.game-card .card-meta {
+  min-height: 39px;
+  padding: 9px 11px;
+  gap: 8px;
+}
+.game-year,
+.review-count {
+  font-size: 11px;
+}
+.game-card .game-no,
+.game-card .score {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  backdrop-filter: blur(8px);
+}
+.filter-row {
+  gap: 18px;
+}
+.filters {
+  min-width: 0;
+  flex-wrap: wrap;
+  row-gap: 12px;
+}
+.sort-control {
+  flex-shrink: 0;
+}
+
+.detail-info p,
+.detail-description {
+  font-size: 15px;
+  line-height: 1.85;
+}
+.detail-community-heading h3 {
+  font-size: 19px;
+}
+.detail-community-heading > small,
+.review-date,
+.review-score,
+.detail-community .empty {
+  font-size: 12px;
+}
+.detail-community {
+  min-width: 0;
+}
+.detail-layout,
+.detail-community {
+  scrollbar-color: #555b42 transparent;
+  scrollbar-width: thin;
+}
+
+@media (max-width: 900px) {
+  .game-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 19px 15px;
+  }
+  .filter-row {
+    align-items: flex-start;
+  }
+  .filters {
+    gap: 17px;
+  }
+}
+@media (max-width: 620px) {
+  .game-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 11px;
+  }
+  .poster {
+    height: auto;
+    aspect-ratio: 2 / 3;
+  }
+  .game-card .poster-title {
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    font-size: 14px;
+  }
+  .game-card .game-no {
+    top: 8px;
+    left: 8px;
+    font-size: 9px;
+  }
+  .game-card .score {
+    top: 7px;
+    right: 7px;
+    padding: 4px 6px;
+    font-size: 10px;
+  }
+  .game-card .card-meta {
+    min-height: 36px;
+    padding: 8px;
+  }
+  .game-year,
+  .review-count {
+    font-size: 10px;
+  }
+  .filter-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 22px 0 18px;
+  }
+  .filters {
+    gap: 12px 17px;
+  }
+  .filter {
+    padding-bottom: 10px;
+    font-size: 13px;
+  }
+  .sort-control {
+    justify-self: end;
+    margin: 0 0 12px;
+  }
+  .detail-card {
+    gap: 13px;
+    padding: 8px;
+  }
+  .detail-layout {
+    grid-template-columns: minmax(118px, 0.72fr) minmax(0, 1fr);
+    gap: 13px;
+    padding: 13px;
+  }
+  .detail-info {
+    padding: 2px 0 8px;
+  }
+  .detail-info p,
+  .detail-description {
+    font-size: 14px;
+  }
+  .detail-community {
+    padding: 15px 13px;
+  }
+  .detail-community-heading h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 390px) {
+  .game-grid {
+    gap: 12px 8px;
+  }
+  .game-card .card-meta {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .detail-layout {
+    grid-template-columns: 96px minmax(0, 1fr);
+    gap: 11px;
+    padding: 11px;
+  }
+}

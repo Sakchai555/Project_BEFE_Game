@@ -281,3 +281,143 @@ td {
     font-size: 12px;
   }
 }
+
+/* Consistent admin surfaces and clearer form/table hierarchy. */
+.admin-main {
+  max-width: 1240px;
+}
+.admin-intro {
+  max-width: 760px;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.admin-panel {
+  border-color: #3a3d31;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #191a15, #13140f);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.17);
+}
+.admin-panel-heading {
+  gap: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #303229;
+}
+.admin-panel h2 {
+  line-height: 1.4;
+}
+.admin-form {
+  gap: 16px 20px;
+}
+.admin-form label {
+  gap: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.admin-form input,
+.admin-form textarea {
+  min-height: 43px;
+  padding: 12px 13px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.admin-form textarea {
+  min-height: 104px;
+  resize: vertical;
+}
+.admin-form input:focus,
+.admin-form textarea:focus {
+  outline: 2px solid rgba(180, 214, 91, 0.28);
+  outline-offset: 1px;
+}
+.admin-form-actions {
+  padding-top: 4px;
+}
+.table-wrap {
+  border: 1px solid #303229;
+  border-radius: 10px;
+  background: rgba(12, 13, 10, 0.35);
+}
+.table-wrap table {
+  min-width: 700px;
+  font-size: 13px;
+}
+.table-wrap th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #1c1e17;
+  color: #c6c9b9;
+  font-size: 12px;
+}
+.table-wrap th,
+.table-wrap td {
+  padding: 12px 13px;
+}
+.table-wrap tbody tr:hover {
+  background: rgba(196, 239, 89, 0.045);
+}
+.admin-actions {
+  flex-wrap: wrap;
+}
+.admin-actions button,
+.moderate-btn {
+  min-height: 34px;
+  border-radius: 7px;
+  font-size: 12px;
+}
+.admin-review {
+  padding: 17px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #171812, #11120f);
+}
+.admin-review-head strong {
+  font-size: 14px;
+}
+.admin-review-head small,
+.admin-review-foot {
+  font-size: 11px;
+}
+.admin-review p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.empty-row {
+  font-size: 14px;
+}
+@media (max-width: 640px) {
+  .admin-main {
+    width: calc(100% - 20px);
+    margin: 30px auto 55px;
+  }
+  .admin-main h1 {
+    font-size: clamp(30px, 9vw, 42px);
+  }
+  .admin-intro {
+    font-size: 14px;
+  }
+  .admin-panel {
+    padding: 18px 14px;
+    margin: 16px 0;
+    border-radius: 12px;
+  }
+  .admin-panel-heading {
+    align-items: flex-start;
+  }
+  .admin-form label {
+    font-size: 13px;
+  }
+  .admin-form-actions {
+    flex-wrap: wrap;
+  }
+  .table-wrap {
+    margin-top: 18px;
+  }
+  .table-wrap th,
+  .table-wrap td {
+    padding: 10px;
+  }
+  .admin-review {
+    padding: 14px;
+  }
+}
